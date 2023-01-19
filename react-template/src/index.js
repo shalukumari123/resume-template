@@ -5,11 +5,14 @@ import App from './App';
 import Data from './Data';
 import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
+import Header from './Header';
+import Landing from './Landing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
+    <Header/>
     <Data/>
     <Footer/>
   </React.StrictMode>
